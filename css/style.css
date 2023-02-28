@@ -1,0 +1,29 @@
+td, th {
+	border: 2px solid;
+  background-color: #44026C;
+  text-align: center;
+  }
+h1{
+  color: #a06cd5;
+  font-family: Fantasy;
+  text-align: center;
+  }
+body{
+  background-color: #140152;
+  color: #9fa0ff;
+  }
+#planets {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  }
+td:hover{
+  background-color: #5D3FD3;
+  color: white;
+  }
+th:hover{
+  font-size: 20px;
+  color: #E6E6FA;
+  font-family: Fantasy;
+  
+}
