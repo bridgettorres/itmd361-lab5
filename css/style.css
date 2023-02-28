@@ -4,15 +4,19 @@ td, th {
   text-align: center;
   }
 h1{
-  color: #a06cd5;
+  color: white;
   font-family: Fantasy;
   text-align: center;
   font: bold 80px Poppins, Fantasy;
+  background-image: linear-gradient(to left, violet, #9fa0ff, indigo, #9fa0ff, violet);
+  border-radius: 150px; 
   }
 body{
-  background-color: #140152;
+  background-image: url(../images/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #9fa0ff;
-  font-size: 20px;
+  font-size: 30px;
   }
 #planets {
   border-collapse: collapse;
@@ -29,7 +33,7 @@ th:hover{
   font-family: Fantasy;
   }
 .ringsystem{
-  border:2px double #140152;
+  border:2px double;
   border-radius: 25px;
   padding:0.03em 0.25em;
   background: linear-gradient(purple, blue);
@@ -44,8 +48,9 @@ th:hover{
 .side{
   background: linear-gradient(#44026C, #00008b);
   font: bold 20px Poppings;
-}
+  letter-spacing: 3px;
+  }
 img:hover{
   width: 250px;
   height: auto;
-}
+  }
