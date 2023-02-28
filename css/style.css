@@ -7,10 +7,12 @@ h1{
   color: #a06cd5;
   font-family: Fantasy;
   text-align: center;
+  font: bold 80px Poppins, Fantasy;
   }
 body{
   background-color: #140152;
   color: #9fa0ff;
+  font-size: 20px;
   }
 #planets {
   border-collapse: collapse;
@@ -25,5 +27,25 @@ th:hover{
   font-size: 20px;
   color: #E6E6FA;
   font-family: Fantasy;
-  
+  }
+.ringsystem{
+  border:2px double #140152;
+  border-radius: 25px;
+  padding:0.03em 0.25em;
+  background: linear-gradient(purple, blue);
+  font: bold 20px Poppings;
+  }
+.cold:hover{
+  background: linear-gradient(#3CE7D7, #000FFF);
+  }
+.hot:hover{
+  background: linear-gradient(orange, red);
+  }
+.side{
+  background: linear-gradient(#44026C, #00008b);
+  font: bold 20px Poppings;
+}
+img:hover{
+  width: 250px;
+  height: auto;
 }
